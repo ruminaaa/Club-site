@@ -1,0 +1,171 @@
+*{
+  margin:0; 
+  font-weight:semi-bold;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  outline:none; border:none;
+  text-decoration:none;
+  text-transform: capitalize;
+}
+
+header{
+  
+  font-family:arial;
+  top:0; left:0; right:0;
+  background:#559DE6;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:0.5rem 2%;
+}
+header .navbar a{
+  margin-left:10px;
+  margin-right:10px;
+  color:white;
+}
+.About{
+   font-family:arial;
+  background-color:#BABABA;
+  height:750px;
+}
+*.heading{
+  font-family:arial;
+  text-align:left;
+  padding:1rem 2.5%;
+}
+* .line1 {
+  width: calc(100% - 40px); 
+  height: 1px; 
+  background-color: black; 
+  margin: 0px auto;
+  margin-bottom:2rem;
+}
+.About .line2 {
+  width: calc(100% - 40px); 
+  height: 1px; 
+  background-color: white; 
+  margin: 3px auto; 
+}
+.About .line3 {
+  width: calc(100% - 40px); 
+  height: 1px; 
+  background-color: white; 
+  margin: 3px auto;
+}
+.About .image_logo{
+  text-align:center;
+}
+.About .content1{
+  
+  font-size:10px;
+  padding:0.5rem 2%;
+}
+.About .content2{
+  font-size:10px;
+  padding:0.5rem 2%;
+}
+.events{
+  background-color:lightgray;
+  height:750px;
+}
+.events li{
+   font-family:arial;
+}
+.events .flag,.events .league{
+  border-radius: 20px;
+  width:30%;
+  margin-left: 20px;
+  padding: 10px
+}
+.events .p1,.events .p2{
+  font-weight:500;
+  font-family:cursive;
+  font-size:10px;
+  margin-left: 20px;
+  padding:10px;
+}
+.contact{
+  background-color:#BABABA;
+  height:550px;
+}
+.contact .formulaire .name, .email ,.message,.number,.button{
+  display:grid;
+  margin-left:15rem;
+  padding:5px;
+}
+
+.contact input, .contact textarea {
+  padding:0.5rem;
+  background:white;
+  border:1px solid rgba(0,0,0,0.3);
+  width:50rem;
+  border-radius: 5px;
+}
+ .contact textarea{
+   height:6rem;
+   
+ }
+.contact .formulaire button{
+  width:7rem;
+  padding:1rem;
+  cursor:pointer;
+  border-radius: 10px;
+  background:black;
+  color:white; 
+  font-family: cursive;
+}
+.contact .formulaire .name label,
+.contact .formulaire .email label,
+.contact .formulaire .number label,
+.contact .formulaire .message label {
+  text-align: left; 
+  padding-right: 10px;
+  color:white;
+}
+footer .links {
+  color:white;
+  background-color:#559DE6;
+  text-align:center;
+  padding:1.5rem;
+}
+
+footer .links a{
+  color:white;
+}
+
+footer .f {
+  display: flex;
+ justify-content: space-between;
+  color:#559DE6;
+  background-color:#BABABA;
+  
+  padding:1.5rem;
+}
+footer .f .thank{
+  margin-left: 31rem;
+}
+
+footer .f a{
+  text-decoration: underline;
+  color:#559DE6;
+}
+
+footer .links .unicode-link i {
+  text-decoration:underline;
+  color: blue; 
+  margin-right:1rem;
+}
+
+footer .links .unicode-link:visited i{
+  color: #5900B3; 
+}
+
+footer .links {
+  display: flex;
+  justify-content: center; 
+}
+
+footer .links p {
+  margin-right: 5px; 
+  margin-left:8px;
+}
+
