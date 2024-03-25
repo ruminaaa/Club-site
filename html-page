@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<!--head-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>G2FOSS</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="images/icon.png" type="image/x-icon">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+  <!--end_head-->
+  
+<!--body-->
+<body>
+  
+  <!--header-->
+    <header>
+      <div >
+        <img src="images/g2foss_logo_white.png" alt="G2FOSS Logo" height=40px width=200px>
+      </div>
+      <nav class="navbar">
+        <a href="#Home">Home</a> |
+        <a href="#About us">About US</a> |
+        <a href="#Our Events">Our Events</a> |
+        <a href="#Contact">Contact</a>
+      </nav>
+    </header>
+  <!--end_header-->
+
+  <!--home_section-->
+    <section class="home" id="Home" style="height: 410px;">
+      <img src="images/banner.jpg" alt="banner" width=100%>
+    </section> 
+  <!--end_home_section-->
+  
+  <!--about_us_section-->
+    <section class="About" id="About us">
+      <h1 class="heading ">about US</h1>
+      <div class="line1"></div>
+      <div class="image_logo">
+        <img src="images/ggfoss.png" alt="G2FOSS 
+        Logo">
+      </div>
+      
+      <div class="content1">
+        <p> thank you for your interest. Here is a quick story 
+        about us.</p>
+      </div>
+      <div class="line2"></div>
+      <div class="content2">
+        <p> G²FOSS is a free and open-source software club 
+        founded in 2008 that operates within the National 
+        School of Engineers of Tunis (ENIT). The club's 
+        objective is to promote the culture and philosophy of 
+        free software and to spred the spirit of sharing.  </p>
+      </div>
+      <div class="line3"></div>
+      </section>
+  <!--end_about_us_section-->
+
+  <!--our_events_section-->
+    <section class="events" id="Our Events">
+      <h1 class="heading ">Our Events </h1>
+      <div class="line1"></div>
+      <div>
+      <ul>
+          <li> <b>Enit Got The Flag</b> </li>
+          <div>
+            <img src="images/enit got the flag.jpg" alt="enit got the 
+          flag poster" class="flag">
+          </div>
+          <div class="p1">
+            <p>  The event "ENIT GOT THE FLAG 2.0" is a national 
+            competition for cybersecurity enthusiasts, which will 
+            take 
+            place on April 13,2024 at the National School of 
+            Engineers 
+            of Tunis. This "Capture The Flag" (CTF) competition 
+            returns with even more inte,sity for its second edition. 
+            Brigth minds in cybersecurity will come together to face 
+            stimulating challenges, testing their problem-solving 
+            skills and understanding of vulnerabilities. "ENIT GOT 
+            THE FLAG 2.0" is not just a competition ,but a 
+            celebration of community spirit in the field of 
+            cybersecurity. </p>
+            </div>
+          <li> <b>League Of Coders</b></li>
+          <div>
+          <img src="images/league of coders.jpg" alt="league of 
+           coders poster" class="league">
+             </div>
+         <div class="p2">
+          <p> The League of Coders, "a national event for programming 
+          competition, is back with full force for its third edition. 
+          Participants will have the opportunity to showcase their 
+          talent and compete for exceptional prizes. </p>
+       </div>
+      </ul>
+    </div>
+    </section>
+  <!--end_our_events_section-->
+
+  <!--contact_section-->
+  <section class="contact" id="Contact">
+    <h1 class="heading ">Contact </h1>
+    <div class="line1"></div>
+    
+    <div class="formulaire">
+    <form>
+      <div class="name"> 
+        <label for="name">Name</label>
+      <input  type="text" id="name" name="Name"  required >
+       </div>
+      <div class="email">
+        <label for="email">Email</label>
+      <input  type="email" id="email" name="Email"  required>
+    </div>
+      <div class="number">
+        <label for="number">Number</label>
+      <input  type="number" id="number" name="Number"  required>
+        </div>
+      <div class="message">
+        <label for="message">Message</label>
+      <textarea name="Message" id="message" ></textarea>
+        </div>
+      <div class="button">
+        <button type="submit">Submit</button>
+      </div>
+       
+    </forum>
+   
+    </div>
+  </section>
+  <!--end_contact_section-->
+</body>
+  
+<footer>
+ <div class="links">
+   <p>LinkdIn</p>
+   <a href="https://www.linkedin.com/company/g2foss-enit/about/" class="unicode-link">
+     
+      <i style="font-size:16px" class="fa">&#xf14c;</i>
+   </a> | | 
+   <p>Facebook</p>
+    <a href="https://www.facebook.com/G2FOSS" class="unicode-link">
+
+       <i style="font-size:16px" class="fa">&#xf14c;</i>
+    </a>    |
+   <p>Instagram</p>
+   <a href="https://www.instagram.com/g2foss/" class="unicode-link">
+
+      <i style="font-size:16px" class="fa">&#xf14c;</i>
+   </a>|
+   <p>Email</p>
+    <a href="mailto:enitg2fossclub@gmail.com" class="unicode-link">
+
+       <i style="font-size:16px" class="fa">&#xf14c;</i>
+    </a>|
+   </div>
+<div class="f">
+<p class="thank"><b>Again thanks for your interest!</b></p>
+<a href="#top"><b>TOP</b></a>
+</div>
+  
+</footer>
+</html>
